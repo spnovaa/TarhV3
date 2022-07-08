@@ -1,0 +1,200 @@
+<template>
+    <v-row>
+        <v-dialog v-model="dialog" max-width="600px" persistent>
+
+            <template v-slot:activator="{ on, attrs }">
+                <v-btn v-bind="attrs" v-on="on" style="font-family:'Samim'" text>
+                    <span style="font-size: small">
+                    <v-icon class="pl-2">mdi-account-plus</v-icon>
+                    سفیر جدید
+                    </span>
+                </v-btn>
+            </template>
+
+            <v-card>
+
+                <v-toolbar color="primary" dark>
+                    <v-btn dark icon @click="dialog = false , error=null">
+                        <v-icon>mdi-close-circle</v-icon>
+                    </v-btn>
+                    <v-toolbar-title>ثبت نام در سامانه</v-toolbar-title>
+                    <v-spacer></v-spacer>
+                </v-toolbar>
+
+                <v-card-text>
+                    <v-container>
+
+                        <div style="text-align: right">
+                            <v-icon>mdi-key</v-icon>
+                            <v-divider class="mx-4" vertical></v-divider>
+                            <span>  لطفا اطلاعات خود را با دقت وارد نمایید    .</span>
+                        </div>
+                        <p v-if="error">
+                            <br>
+                            <v-icon style="color:red">mdi-alert-circle</v-icon>
+                            <v-divider class="mx-4" vertical></v-divider>
+                            <b style="color:red">لطفا تمامی اطلاعات خواسته شده را کامل کنید</b>
+                        </p>
+                        <v-row align="center" justify="center">
+                            <v-col cols="12" md="1" sm="1">
+                                <v-icon>mdi-account</v-icon>
+                            </v-col>
+
+                            <v-col cols="12" md="5" sm="5">
+                                <v-text-field v-model="name" :rules="[rules.required]" label="نام "
+                                              name="name"></v-text-field>
+                            </v-col>
+
+                            <v-col cols="12" md="6" sm="6">
+                                <v-text-field v-model="last_name" :rules="[rules.required]" label="نام خانوادگی"
+                                              name="family_name"></v-text-field>
+                            </v-col>
+
+                            <v-col cols="12" md="5" sm="5">
+                                <v-text-field v-model="tel" :rules="[telRules.required, telRules.min] "
+                                              hint="09xxxxxxxxx"
+                                              label="شماره تلفن همراه" maxlength=11 name="tel"
+                                              required reverse type="text"></v-text-field>
+                            </v-col>
+
+                            <v-col cols="12" md="1" sm="1">
+                                <v-icon>mdi-cellphone</v-icon>
+                            </v-col>
+
+                            <v-col cols="12" md="5" sm="5">
+                                <v-text-field v-model="email" :rules="emailRules" label="ایمیل" name="email" required
+                                              reverse type="email"></v-text-field>
+                            </v-col>
+
+                            <v-col cols="12" md="1" sm="1">
+                                <v-icon>mdi-email</v-icon>
+                            </v-col>
+
+                            <v-col cols="12" md="5" sm="5">
+                                <v-text-field v-model="password"
+                                              :append-icon="show1 ? 'mdi-eye' : 'mdi-eye-off'" :rules="[rules.required, rules.min]"
+                                              :type="show1 ? 'text' : 'password'"
+                                              hint="حداقل 8 کاراکتر"
+                                              label="گذرواژه" name="password"
+                                              reverse
+                                              @click:append="show1 = !show1"></v-text-field>
+                            </v-col>
+
+
+                            <v-col cols="12" md="1" sm="1">
+                                <v-icon>mdi-account-key</v-icon>
+                            </v-col>
+
+
+                            <v-col cols="12" md="5" sm="5">
+                                <v-text-field v-model="password_check"
+                                              :append-icon="show2 ? 'mdi-eye' : 'mdi-eye-off'" :rules="[rules.required, rules.min]"
+                                              :type="show2 ? 'text' : 'password'" hint="حداقل 8 کاراکتر"
+                                              label="ورود مجدد گذرواژه"
+                                              name="password_check" required
+                                              reverse
+                                              @click:append="show2 = !show2"></v-text-field>
+                            </v-col>
+
+                            <v-col cols="12" md="1" sm="1">
+                                <v-icon>mdi-account-check</v-icon>
+                            </v-col>
+
+                        </v-row>
+                    </v-container>
+                </v-card-text>
+
+                <v-card-actions>
+                    <v-spacer></v-spacer>
+
+                    <v-btn color="blue darken-1" text @click="dialog = false">
+                        انصراف
+                    </v-btn>
+
+                    <v-btn color="blue darken-1" text @click="register">
+                        ثبت
+                    </v-btn>
+
+                </v-card-actions>
+            </v-card>
+        </v-dialog>
+    </v-row>
+
+</template>
+
+<script>
+export default {
+    data: () => ({
+        error: null,
+        dialog: false,
+        isvalid: false,
+        name: null,
+        last_name: null,
+        email: null,
+        password: null,
+        password_check: null,
+        tel: null,
+        show1: false,
+        show2: false,
+        rules: {
+            required: value => !!value || 'الزامی',
+            min: v => v.length >= 8 || 'حداقل 8 کاراکتر',
+        },
+        emailRules: [
+            v => /^\w+([.-]?\w+)*@\w+([.-]?\w+)*(\.\w{2,3})+$/.test(v) || 'ایمیل را صحیح وارد کنید'
+        ],
+        telRules: {
+            required: value => !!value || 'الزامی',
+            min: v => v.length >= 11 || ' تلفن همراه را بصورت کامل وارد کنید ',
+        },
+
+    }),
+
+    methods: {
+        submitRegister: function () {
+
+        },
+        isMobile(e) {
+            const value = event.target.value; // Get whole string
+            let char = String.fromCharCode(e.keyCode); // Get the character
+            if (/^[0-9]+$/.test(char) && String(value).length <= 10) return true; // Match with regex
+            else e.preventDefault(); // If not match, don't add to input text
+        },
+        validate() {
+            if (!this.name || !this.last_name || !this.email || !this.tel || !this.password || !this.password_check) {
+                this.error = true;
+                return null;
+            }
+
+            if (this.password == this.password_check) {
+                axios({
+                    method: 'post',
+                    url: 'register',
+                    data: {
+                        name: this.name,
+                        last_name: this.last_name,
+                        email: this.email,
+                        tel: this.tel,
+                        password: this.password
+                    }
+                }).then((data) => {
+
+                    alert(data.data);
+                    this.dialog = false;
+                    this.error = null;
+
+                })
+                    .catch(() => {
+
+                    });
+                ;
+            } else {
+                alert('پسورد مطابقت ندارد')
+            }
+        },
+        register() {
+            this.validate();
+        }
+    }
+}
+</script>

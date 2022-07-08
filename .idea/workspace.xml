@@ -1,0 +1,666 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8add5f5a-b286-4349-8061-96a5362b1630" name="Default Changelist" comment="many things have changed" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Vue Single File Component" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="E:\خوشه\Tarh\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/ramsey/uuid" />
+      <path value="$PROJECT_DIR$/vendor/ramsey/collection" />
+      <path value="$PROJECT_DIR$/vendor/psy/psysh" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-normalizer" />
+      <path value="$PROJECT_DIR$/vendor/symfony/var-dumper" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-grapheme" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-iconv" />
+      <path value="$PROJECT_DIR$/vendor/symfony/translation-contracts" />
+      <path value="$PROJECT_DIR$/vendor/facade/flare-client-php" />
+      <path value="$PROJECT_DIR$/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/vendor/facade/ignition-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php73" />
+      <path value="$PROJECT_DIR$/vendor/facade/ignition" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-kernel" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php72" />
+      <path value="$PROJECT_DIR$/vendor/symfony/event-dispatcher-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/process" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-idn" />
+      <path value="$PROJECT_DIR$/vendor/symfony/deprecation-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/string" />
+      <path value="$PROJECT_DIR$/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/vendor/symfony/mime" />
+      <path value="$PROJECT_DIR$/vendor/voku/portable-ascii" />
+      <path value="$PROJECT_DIR$/vendor/brick/math" />
+      <path value="$PROJECT_DIR$/vendor/symfony/service-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/vendor/symfony/translation" />
+      <path value="$PROJECT_DIR$/vendor/symfony/css-selector" />
+      <path value="$PROJECT_DIR$/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/vendor/symfony/routing" />
+      <path value="$PROJECT_DIR$/vendor/league/flysystem" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-client-contracts" />
+      <path value="$PROJECT_DIR$/vendor/league/commonmark" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-foundation" />
+      <path value="$PROJECT_DIR$/vendor/league/mime-type-detection" />
+      <path value="$PROJECT_DIR$/vendor/symfony/error-handler" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php80" />
+      <path value="$PROJECT_DIR$/vendor/asm89/stack-cors" />
+      <path value="$PROJECT_DIR$/vendor/fzaninotto/faker" />
+      <path value="$PROJECT_DIR$/vendor/egulias/email-validator" />
+      <path value="$PROJECT_DIR$/vendor/dnoegel/php-xdg-base-dir" />
+      <path value="$PROJECT_DIR$/vendor/opis/closure" />
+      <path value="$PROJECT_DIR$/vendor/phpspec/prophecy" />
+      <path value="$PROJECT_DIR$/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/promises" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/psr7" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/guzzle" />
+      <path value="$PROJECT_DIR$/vendor/theseer/tokenizer" />
+      <path value="$PROJECT_DIR$/vendor/vlucas/phpdotenv" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/vendor/fideloper/proxy" />
+      <path value="$PROJECT_DIR$/vendor/fruitcake/laravel-cors" />
+      <path value="$PROJECT_DIR$/vendor/phar-io/manifest" />
+      <path value="$PROJECT_DIR$/vendor/phar-io/version" />
+      <path value="$PROJECT_DIR$/vendor/nesbot/carbon" />
+      <path value="$PROJECT_DIR$/vendor/kavenegar/laravel" />
+      <path value="$PROJECT_DIR$/vendor/kavenegar/php" />
+      <path value="$PROJECT_DIR$/vendor/filp/whoops" />
+      <path value="$PROJECT_DIR$/vendor/phpoption/phpoption" />
+      <path value="$PROJECT_DIR$/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/vendor/psr/event-dispatcher" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/vendor/nunomaduro/collision" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/vendor/ralouphie/getallheaders" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-token-stream" />
+      <path value="$PROJECT_DIR$/vendor/tijsverkoyen/css-to-inline-styles" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/resource-operations" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/vendor/hamcrest/hamcrest-php" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/object-reflector" />
+      <path value="$PROJECT_DIR$/vendor/dragonmantank/cron-expression" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/code-unit-reverse-lookup" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/type" />
+      <path value="$PROJECT_DIR$/vendor/mockery/mockery" />
+      <path value="$PROJECT_DIR$/vendor/laravel/tinker" />
+      <path value="$PROJECT_DIR$/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/vendor/laravel/ui" />
+      <path value="$PROJECT_DIR$/vendor/laravel/framework" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-common" />
+      <path value="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer" />
+      <path value="$PROJECT_DIR$/vendor/markbaker/complex" />
+      <path value="$PROJECT_DIR$/vendor/markbaker/matrix" />
+      <path value="$PROJECT_DIR$/vendor/maatwebsite/excel" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-client" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-factory" />
+      <path value="$PROJECT_DIR$/vendor/myclabs/php-enum" />
+      <path value="$PROJECT_DIR$/vendor/phpoffice/phpspreadsheet" />
+      <path value="$PROJECT_DIR$/vendor/ezyang/htmlpurifier" />
+      <path value="$PROJECT_DIR$/vendor/maennchen/zipstream-php" />
+      <path value="$PROJECT_DIR$/vendor/beberlei/assert" />
+      <path value="$PROJECT_DIR$/vendor/morilog/jalali" />
+    </include_path>
+  </component>
+  <component name="ProjectId" id="1uGEzOOP0thp00BtID6BK9PoN0y" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\PhpStorm 2021.1.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\خوشه\Tarh\app\HelperClasses\Admin\Excel\Shop" />
+      <recent name="E:\خوشه\Tarh\resources\views\safir" />
+      <recent name="E:\خوشه\Tarh\resources\views\auth\assets" />
+      <recent name="E:\خوشه\Tarh\resources\views\auth" />
+      <recent name="E:\خوشه\Tarh\resources\views\auth\shop" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\خوشه\Tarh\resources\views" />
+      <recent name="E:\خوشه\Tarh\app\HelperClasses\Admin\Excel\Safir" />
+    </key>
+  </component>
+  <component name="RunManager" selected="PHPUnit.phpunit.xml">
+    <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner scope="XML" />
+      <method v="2" />
+    </configuration>
+    <configuration name="watch" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="watch" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.watch" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8add5f5a-b286-4349-8061-96a5362b1630" name="Default Changelist" comment="" />
+      <created>1624283788307</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1624283788307</updated>
+      <workItem from="1624283796210" duration="1800000" />
+      <workItem from="1624285841107" duration="422000" />
+      <workItem from="1624286711257" duration="886000" />
+      <workItem from="1624291082296" duration="1007000" />
+      <workItem from="1624387180161" duration="3098000" />
+      <workItem from="1624524777871" duration="4429000" />
+      <workItem from="1624537552768" duration="7962000" />
+      <workItem from="1624551612979" duration="328000" />
+      <workItem from="1624552142389" duration="859000" />
+      <workItem from="1624802225099" duration="8296000" />
+      <workItem from="1626093664979" duration="59080000" />
+      <workItem from="1626220027175" duration="25424000" />
+      <workItem from="1627548869002" duration="434000" />
+      <workItem from="1627549347306" duration="3666000" />
+      <workItem from="1627671841763" duration="8317000" />
+      <workItem from="1628003120643" duration="35143000" />
+      <workItem from="1628159666735" duration="9188000" />
+      <workItem from="1628224000457" duration="18218000" />
+      <workItem from="1628372906599" duration="15407000" />
+      <workItem from="1628418102949" duration="249000" />
+      <workItem from="1628459743803" duration="7493000" />
+      <workItem from="1628469628690" duration="744000" />
+      <workItem from="1628599516365" duration="11409000" />
+      <workItem from="1628639457690" duration="1081000" />
+      <workItem from="1628665433769" duration="1840000" />
+      <workItem from="1629815522657" duration="22392000" />
+      <workItem from="1629971855974" duration="20323000" />
+      <workItem from="1630011223647" duration="30000" />
+      <workItem from="1630011279023" duration="3135000" />
+      <workItem from="1630088300554" duration="12294000" />
+      <workItem from="1630424567961" duration="46308000" />
+      <workItem from="1630664697142" duration="31100000" />
+      <workItem from="1631036204187" duration="1282000" />
+      <workItem from="1631469640827" duration="1648000" />
+      <workItem from="1632077986522" duration="18000" />
+      <workItem from="1632078028439" duration="9860000" />
+      <workItem from="1632164456618" duration="1024000" />
+      <workItem from="1632169730970" duration="928000" />
+      <workItem from="1632239341062" duration="12497000" />
+      <workItem from="1633117213751" duration="16677000" />
+      <workItem from="1655064964850" duration="3879000" />
+      <workItem from="1655134001375" duration="16705000" />
+      <workItem from="1655232110945" duration="5857000" />
+      <workItem from="1655363116945" duration="19973000" />
+      <workItem from="1656067269971" duration="30660000" />
+      <workItem from="1657286687489" duration="4781000" />
+      <workItem from="1657296965436" duration="32000" />
+    </task>
+    <task id="LOCAL-00001" summary="* A platform trying to help Khooshe organization to mange their ceremony book sellings&#10;* This platform has 5 layers until now: Admin, Distributor, Shop, Safir, Customer. &#10;------------------------------------------------------&#10;* The next Step Is To Redesign Database Relationships For Distributors And Shops, So We Can Let Other Distributors Hoin The Platform Too.">
+      <created>1624287173936</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1624287173936</updated>
+    </task>
+    <task id="LOCAL-00002" summary="* New Distributor Database Scheme Is Now Designed.&#10;* The Next Step Is Yo Manage Relationships Between Tables In Distributor Model.">
+      <created>1624390702863</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1624390702863</updated>
+    </task>
+    <task id="LOCAL-00003" summary="* All Relationships For Distributor Is Now Designed.&#10;* Some Extra Tables Added Distributor RecentActions, Inventory ,...&#10;* Some Models Needed To Be Renamed.&#10;----------------------------------------------------------------------------------&#10;* The Next Step Is To Refactor Distributor Controllers And Any Related Method In Other Controllers.">
+      <created>1624550323381</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1624550323381</updated>
+    </task>
+    <task id="LOCAL-00004" summary="* All Relationships For Distributor Is Now Designed.&#10;* Some Extra Tables Added Distributor RecentActions, Inventory ,...&#10;* Some Models Needed To Be Renamed.&#10;----------------------------------------------------------------------------------&#10;* The Next Step Is To Refactor Distributor Controllers And Any Related Method In Other Controllers.">
+      <created>1624551761094</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1624551761094</updated>
+    </task>
+    <task id="LOCAL-00005" summary="* Distributor Signup Is Now Accessible">
+      <created>1624807914292</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1624807914293</updated>
+    </task>
+    <task id="LOCAL-00006" summary="* Distributor Signup Is Now Accessible&#10;--------------------------------------------------------&#10;The next step is to design new look of distributor pannel.">
+      <created>1624811304312</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1624811304312</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Multiple distributors can now register, send resume and be voted.">
+      <created>1626133537798</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1626133537798</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Some Bugs Fixed">
+      <created>1626222426056</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1626222426056</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Some Bugs Fixed">
+      <created>1626247895521</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1626247895521</updated>
+    </task>
+    <task id="LOCAL-00010" summary="company_tel, credit_card, company_zip added for company&#10;bugs fixed">
+      <created>1627713757456</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1627713757456</updated>
+    </task>
+    <task id="LOCAL-00011" summary="customer volume count limit is now implemented.">
+      <created>1628088284654</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1628088284654</updated>
+    </task>
+    <task id="LOCAL-00012" summary="shop zip, credit card, surface area, phone added">
+      <created>1628105832810</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1628105832810</updated>
+    </task>
+    <task id="LOCAL-00013" summary="canShopAddBook setting added">
+      <created>1628111107897</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1628111107897</updated>
+    </task>
+    <task id="LOCAL-00014" summary="shop stats frontend constructed">
+      <created>1628197398830</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1628197398830</updated>
+    </task>
+    <task id="LOCAL-00015" summary="shop direct sell stats backend implemented">
+      <created>1628273823818</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1628273823818</updated>
+    </task>
+    <task id="LOCAL-00016" summary="failure to use excel libs">
+      <created>1628277778612</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1628277778612</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Revert &quot;shop direct sell stats backend implemented&quot;&#10;&#10;This reverts commit 21d30f08">
+      <created>1628277843471</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1628277843471</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Revert &quot;failure to use excel libs&quot;&#10;&#10;This reverts commit d5fe6d84">
+      <created>1628277932388</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1628277932388</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Excel Export Added For Shop Direct Sell">
+      <created>1628280700082</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1628280700082</updated>
+    </task>
+    <task id="LOCAL-00020" summary="*** direct sell stats completed.">
+      <created>1628282032764</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1628282032764</updated>
+    </task>
+    <task id="LOCAL-00021" summary="ADMIN CAN NOW SEE STATS OF SPECIFIC SHOPS">
+      <created>1628286310324</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1628286310324</updated>
+    </task>
+    <task id="LOCAL-00022" summary="commit">
+      <created>1628413934077</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1628413934077</updated>
+    </task>
+    <task id="LOCAL-00023" summary="safir resume all and active ui&#10;safir active types excel&#10;some ui changes">
+      <created>1628467886111</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1628467886111</updated>
+    </task>
+    <task id="LOCAL-00024" summary="some ui changes">
+      <created>1628599569564</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1628599569564</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Shop Resumes Excel&#10;Resumes Page Combined">
+      <created>1628638335071</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1628638335071</updated>
+    </task>
+    <task id="LOCAL-00026" summary="ui changes&#10;home logo added">
+      <created>1628639685546</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1628639685547</updated>
+    </task>
+    <task id="LOCAL-00027" summary="ui changes&#10;shiraze logo commented">
+      <created>1629925153636</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1629925153636</updated>
+    </task>
+    <task id="LOCAL-00028" summary="ui changes&#10;login links commented">
+      <created>1629926692543</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1629926692543</updated>
+    </task>
+    <task id="LOCAL-00029" summary="bugs fixed&#10;some ux added">
+      <created>1629931173383</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1629931173383</updated>
+    </task>
+    <task id="LOCAL-00030" summary="carousel added to the landing page.">
+      <created>1629988235851</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1629988235851</updated>
+    </task>
+    <task id="LOCAL-00031" summary="tarhname is displayed as admin wants generally&#10;nest step is to define multiple names for different roles">
+      <created>1629995499098</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1629995499098</updated>
+    </task>
+    <task id="LOCAL-00032" summary="different tarh names for different roles">
+      <created>1629996775700</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1629996775700</updated>
+    </task>
+    <task id="LOCAL-00033" summary="minor specifications for current tarh">
+      <created>1630014423601</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1630014423601</updated>
+    </task>
+    <task id="LOCAL-00034" summary="shops can set initial value to their new added book.&#10;some phpDoc and comments added.">
+      <created>1630095715498</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1630095715498</updated>
+    </task>
+    <task id="LOCAL-00035" summary="some ui changes">
+      <created>1630525239820</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1630525239820</updated>
+    </task>
+    <task id="LOCAL-00036" summary="landing page completed">
+      <created>1630543378633</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1630543378633</updated>
+    </task>
+    <task id="LOCAL-00037" summary="SettingsHandler.php added to OrderController.php">
+      <created>1630597591718</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1630597591718</updated>
+    </task>
+    <task id="LOCAL-00038" summary="ui changes">
+      <created>1630622245504</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1630622245504</updated>
+    </task>
+    <task id="LOCAL-00039" summary="buy count perbook limit is implemented&#10;webpack edited: added .version()&#10;app.blade edited -&gt; changed asset to mix&#10;in order to show changes to user">
+      <created>1630666632939</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1630666632939</updated>
+    </task>
+    <task id="LOCAL-00040" summary="direct sell invoice developed">
+      <created>1630678773493</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1630678773493</updated>
+    </task>
+    <task id="LOCAL-00041" summary="admin login page changed">
+      <created>1630679126831</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1630679126831</updated>
+    </task>
+    <task id="LOCAL-00042" summary="direct sell bugs fixed">
+      <created>1630699122137</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1630699122137</updated>
+    </task>
+    <task id="LOCAL-00043" summary="name and last name made optional in shop direct sell">
+      <created>1630700669112</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1630700669112</updated>
+    </task>
+    <task id="LOCAL-00044" summary="ui changes">
+      <created>1630701076318</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1630701076318</updated>
+    </task>
+    <task id="LOCAL-00045" summary="shop files added">
+      <created>1630704766148</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1630704766148</updated>
+    </task>
+    <task id="LOCAL-00046" summary="stats added">
+      <created>1630708747972</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1630708747972</updated>
+    </task>
+    <task id="LOCAL-00047" summary="stats added">
+      <created>1632079788587</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1632079788587</updated>
+    </task>
+    <task id="LOCAL-00048" summary="customer search by tel implemented">
+      <created>1632165042058</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1632165042059</updated>
+    </task>
+    <task id="LOCAL-00049" summary="book stats added">
+      <created>1633205829195</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1633205829195</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+    <MESSAGE value="commit" />
+    <MESSAGE value="safir resume all and active ui&#10;safir active types excel&#10;some ui changes" />
+    <MESSAGE value="Shop Resumes Excel&#10;Resumes Page Combined" />
+    <MESSAGE value="ui changes&#10;home logo added" />
+    <MESSAGE value="ui changes&#10;shiraze logo commented" />
+    <MESSAGE value="ui changes&#10;login links commented" />
+    <MESSAGE value="bugs fixed&#10;some ux added" />
+    <MESSAGE value="carousel added to the landing page." />
+    <MESSAGE value="tarhname is displayed as admin wants generally&#10;nest step is to define multiple names for different roles" />
+    <MESSAGE value="different tarh names for different roles" />
+    <MESSAGE value="minor specifications for current tarh" />
+    <MESSAGE value="shops can set initial value to their new added book.&#10;some phpDoc and comments added." />
+    <MESSAGE value="some ui changes" />
+    <MESSAGE value="landing page completed" />
+    <MESSAGE value="SettingsHandler.php added to OrderController.php" />
+    <MESSAGE value="buy count perbook limit is implemented&#10;webpack edited: added .version()&#10;app.blade edited -&gt; changed asset to mix&#10;in order to show changes to user" />
+    <MESSAGE value="direct sell invoice developed" />
+    <MESSAGE value="admin login page changed" />
+    <MESSAGE value="direct sell bugs fixed" />
+    <MESSAGE value="name and last name made optional in shop direct sell" />
+    <MESSAGE value="ui changes" />
+    <MESSAGE value="shop files added" />
+    <MESSAGE value="stats added" />
+    <MESSAGE value="customer search by tel implemented" />
+    <MESSAGE value="book stats added" />
+    <option name="LAST_COMMIT_MESSAGE" value="book stats added" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
+</project>
