@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8add5f5a-b286-4349-8061-96a5362b1630" name="Default Changelist" comment="many things have changed" />
+    <list default="true" id="8add5f5a-b286-4349-8061-96a5362b1630" name="Default Changelist" comment="Tahr Version 3 Founded.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/HelperClasses/Admin/Excel/Safir/AllSafirsExcel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/HelperClasses/Admin/Excel/Safir/AllSafirsExcel.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -265,14 +268,8 @@
       <workItem from="1655363116945" duration="19973000" />
       <workItem from="1656067269971" duration="30660000" />
       <workItem from="1657286687489" duration="4781000" />
-      <workItem from="1657296965436" duration="32000" />
-    </task>
-    <task id="LOCAL-00001" summary="* A platform trying to help Khooshe organization to mange their ceremony book sellings&#10;* This platform has 5 layers until now: Admin, Distributor, Shop, Safir, Customer. &#10;------------------------------------------------------&#10;* The next Step Is To Redesign Database Relationships For Distributors And Shops, So We Can Let Other Distributors Hoin The Platform Too.">
-      <created>1624287173936</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1624287173936</updated>
+      <workItem from="1657296965436" duration="1207000" />
+      <workItem from="1657646364251" duration="298000" />
     </task>
     <task id="LOCAL-00002" summary="* New Distributor Database Scheme Is Now Designed.&#10;* The Next Step Is Yo Manage Relationships Between Tables In Distributor Model.">
       <created>1624390702863</created>
@@ -610,7 +607,14 @@
       <option name="project" value="LOCAL" />
       <updated>1633205829195</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="Tahr Version 3 Founded.">
+      <created>1657297377049</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1657297377050</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -634,7 +638,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <MESSAGE value="commit" />
     <MESSAGE value="safir resume all and active ui&#10;safir active types excel&#10;some ui changes" />
     <MESSAGE value="Shop Resumes Excel&#10;Resumes Page Combined" />
     <MESSAGE value="ui changes&#10;home logo added" />
@@ -659,7 +662,8 @@
     <MESSAGE value="stats added" />
     <MESSAGE value="customer search by tel implemented" />
     <MESSAGE value="book stats added" />
-    <option name="LAST_COMMIT_MESSAGE" value="book stats added" />
+    <MESSAGE value="Tahr Version 3 Founded." />
+    <option name="LAST_COMMIT_MESSAGE" value="Tahr Version 3 Founded." />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>

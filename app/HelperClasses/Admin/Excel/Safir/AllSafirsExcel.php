@@ -5,6 +5,7 @@ namespace App\HelperClasses\Admin\Excel\Safir;
 
 
 use App\Http\Controllers\Admin\ResumeController;
+use App\User;
 use Maatwebsite\Excel\Concerns\WithHeadings;
 use Maatwebsite\Excel\Concerns\FromCollection;
 
@@ -12,7 +13,7 @@ class AllSafirsExcel implements FromCollection, WithHeadings
 {
     public function collection()
     {
-        return (new ResumeController())->getAllData();
+        return User::all();
     }
 
     public function headings(): array
